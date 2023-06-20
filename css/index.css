@@ -1,0 +1,93 @@
+body{
+    /* 背景图片样式(铺满屏幕+自适应) */
+    background:url(../images/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* 大标题盒子样式 */
+.dabiaoti{
+    width: 100%;
+    height: 100px;
+    /* 临时样式，上线后注释 */
+    background-color: rgba(255, 76, 189, 0.6);
+}
+.dabiaoti-h1-1{
+    width: 100%;
+    padding-top: 20px;
+    /* font-size: 30px; */
+}
+.fg-hr{
+    width: 85%;
+    height: 2px;
+    color: rgba(255,255,255,0.8);
+}
+/* 视频盒子样式 */
+
+        #wrapper {
+            width: 100%;
+            margin: 0 auto;
+            max-width: calc(100% - 4em);
+            /*padding: 4em 0 2em 0;*/
+            padding: 0px;
+        }
+    
+            #wrapper > .main {
+                margin-top: 2em;
+                margin-bottom: 2em;
+                background: linear-gradient(
+                    to right bottom,
+                    rgba(255,255,255,0.4),
+                    rgba(255,255,255,0.05)
+                );
+                border-radius:10px;
+                backdrop-filter: blur(8px);
+                box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+                border-top: 1px solid rgba(255,255,255,0.8);
+                border-left: 1px solid rgba(255,255,255,0.8);
+                text-align:center;
+            }
+    
+            @media screen and (max-width: 980px) {
+    
+                #wrapper {
+                    padding: 2em 0 2em 0;
+                }
+    
+                    #wrapper > .main {
+                        margin-bottom: 2em;
+                    }
+    
+            }
+    
+            @media screen and (max-width: 736px) {
+    
+                #wrapper {
+                    max-width: calc(100% - 2em);
+                    /*padding: 1em 0 0.1em 0;*/
+                    padding: 0px;
+                }
+    
+                    #wrapper > .main {
+                        margin-bottom: 1em;
+                    }
+    
+            }
+.video-style{
+    width: 95%;
+    margin-bottom: 20px;
+}
+.wrapper-main-h3{
+    text-align: left;
+    margin: 20px;
+}
+/* foot样式 */
+.foot{
+    width: 100%;
+    height:80px;
+    bottom: 0px;
+    /* 临时样式，上线后注释 */
+    background-color: rgba(255,255,255,0.4);
+    padding-top: 30px;
+}
